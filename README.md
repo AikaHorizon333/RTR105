@@ -7,16 +7,6 @@ Some **Bold text with _itallic importat_ stuff**
 Some *Itallic Text*  
 ***Remember using double space to end lines***  
 
-## Adding Some Code  
-
-Now some hello_world_! experiments:  
-
-''' 
-# Some python code. 
-print('Hello, world!)
-
-'''
-
 
 ## Lists
 
@@ -42,3 +32,34 @@ Here is an nested List:
 - Stuff C
   - Substuff C
 
+## Formating Code  
+
+We can include code by using the *spanish accent*
+
+Now some hello_world_! experiments:  
+
+* Python: 
+``` 
+# Some python code. 
+print('Hello, world!)
+```
+* JS:
+
+```
+// Some JS code. 
+console.log('Hello, world!);
+```
+* C++: 
+
+```
+// Some C++ code. 
+
+# pragma once
+# include <iostream>
+
+int  main(){
+ std::cout<<'Hello, world!';
+
+}
+
+```
