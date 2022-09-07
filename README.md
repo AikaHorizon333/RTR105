@@ -3,9 +3,19 @@
 
 ## Text Formating 
 
-Some **Bold text with _importat_ stuff**  
+Some **Bold text with _itallic importat_ stuff**  
 Some *Itallic Text*  
 ***Remember using double space to end lines***  
+
+## Adding Some Code  
+
+Now some hello_world_! experiments:  
+
+''' 
+# Some python code. 
+print('Hello, world!)
+
+'''
 
 
 ## Lists
