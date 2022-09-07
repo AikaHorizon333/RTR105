@@ -2,7 +2,7 @@
 
 Electronic Notebook for Computer Studies basic course  
  
-![Donut](https://tenor.com/view/donut-code-computer-gif-11570094) 
+![donut](https://user-images.githubusercontent.com/73769831/188885248-caa0010c-22e9-4f91-b979-768bbc3bd0ea.png)
 
 ## Chapters  
 [Text Formating](#text-formating)  
