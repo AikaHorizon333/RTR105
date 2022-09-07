@@ -4,7 +4,8 @@ Electronic Notebook for Computer Studies basic course
  
 ![myImage](https://tenor.com/WH4A.gif) 
 
-## Chapters
+## Chapters  
+[Text Formating](#text-formating)
 
 
 
