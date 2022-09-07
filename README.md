@@ -2,12 +2,12 @@
 
 Electronic Notebook for Computer Studies basic course  
  
-![myImage](https://tenor.com/WH4A.gif) 
+![[https://tenor.com/WH4A.gif](https://tenor.com/view/donut-code-computer-gif-11570094) 
 
 ## Chapters  
 [Text Formating](#text-formating)
-
-
+[Lists](#lists)
+[Formating Code](#formating-code)
 
 ## Text Formating 
 
