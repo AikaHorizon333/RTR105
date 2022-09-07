@@ -64,5 +64,7 @@ int  main(){
 }
 
 ```
-ps.. You can attach images from the computer by draging and dropping to the .md file.  
-![2022 07 09-03 49 00](https://user-images.githubusercontent.com/73769831/188881111-00b7cf52-ec3b-44aa-b30f-3bf52db1a7bb.png)
+ps.. You can attach images from the computer by draging and dropping to the `.md` file.  
+
+![WhatsApp Image 2022-07-02 at 8 32 26 PM](https://user-images.githubusercontent.com/73769831/188881595-f088e373-96c6-47ae-a348-c3366a909359.jpeg)
+
