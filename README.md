@@ -1,2 +1,2 @@
 # RTR105
- Computer Studies Course
+ Electronic Notebook for Computer Studies basic course
