@@ -1,5 +1,12 @@
 # RTR105
- Electronic Notebook for Computer Studies basic course
+
+Electronic Notebook for Computer Studies basic course  
+ 
+![myImage](https://tenor.com/WH4A.gif) 
+
+## Chapters
+
+
 
 ## Text Formating 
 
@@ -24,7 +31,7 @@ Here is a small ordered list:
 2. Apple
 3. Lemon
 
-Here is an nested List:  
+Here is a nested List:  
 
 - Stuff A  
   - Substuff A
