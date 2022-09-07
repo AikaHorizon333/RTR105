@@ -1,7 +1,7 @@
 # RTR105
  Electronic Notebook for Computer Studies basic course
 
-## Text Formating 
+## Text Formating 
 
 
 Here is a small List:  
