@@ -7,6 +7,7 @@ Some **Bold text with _itallic importat_ stuff**
 Some *Itallic Text*  
 ***Remember using double space to end lines***  
 
+In case of distress you can always check up the documentation, [Here it's the link](https://docs.github.com/en) 
 
 ## Lists
 
@@ -59,7 +60,7 @@ console.log('Hello, world!);
 
 int  main(){
  std::cout<<'Hello, world!';
-
+ return 0;
 }
 
 ```
