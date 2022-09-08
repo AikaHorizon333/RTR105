@@ -1,41 +1,41 @@
 # Basic Terminal Commands  
 
-1. Who am I ?  
+1. **Who am I ?**  
 
-Displays the current user.  
+    Displays the current user.  
 
-`whoami`  
+    `whoami` 
 
-2. Who ? 
+2. **Who ?** 
 
-Displays *who* is in the system and how they are connected.
+    Displays *who* is in the system and how they are connected.
 
     - tty: They are locally connected.    
     - pts: They are externally connected.  
 
-`who`
+    `who`
 
-3. Print Working Directory, Where Am I ?
+3. **Print Working Directory, Where Am I ?**
 
-Displays the current directory. 
+    Displays the current directory. 
 
-`pwd`
+    `pwd`
 
-4. Walking to other directories
+4. **Walking to other directories**
 
     - `cd <somePath>` This command moves you to the specified directory.   
     - `cd ..` You move to the parent directory.  
     - `cd`  It moves you to the *Home* directory.  
 
-5. What is inside? 
+5. **What is inside?** 
 
     - `ls` It shows you the visible files available on the current directory.  
     - `ls -a` It shows *all* the files, including hidden files on the directory.   
     - `ls -l` List a more detailed report of the available files and folder on the current directory.  
     - `ls -la` List a detailed report of *all* the files and folders. 
-    - `ls -lt` Sort the list by time.
+    - `ls -lt` Sort the list by time.  
 
-The report includes:  
+    The report includes:  
 
     - Folder or File
     - Permissions for the owner, for the group and for external users -> r: read, w: write, x: execute
@@ -46,29 +46,29 @@ The report includes:
     - Date
     - Name
 
-6.  Moving Files
+6.  **Moving Files**
 
-We can move files form the current directory to another directory.
+    We can move files form the current directory to another directory.
 
-`mv <filename> <destination>`
+    `mv <filename> <destination>`
 
-7. Copying Files  
+7. **Copying Files**  
 
-We can copy files from the current directory to another directory.  
+    We can copy files from the current directory to another directory.  
 
-`cp <filename> <destination>`
+    `cp <filename> <destination>`
 
-8. Creating New Folders.  
+8. **Creating New Folders.**  
 
-We can create new folders in the current directory.  
+    We can create new folders in the current directory.  
 
-`mkdir <name>`
+    `mkdir <name>`
 
-9. Creating Files.  
+9. **Creating Files.**  
 
-We can create files in the current directory.  
+    We can create files in the current directory.  
 
-`touch <filename>`
+    `touch <filename>`
 
-10. Remove Files and Folders.  
+10. **Remove Files and Folders.**  
 
