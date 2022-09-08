@@ -72,3 +72,7 @@
 
 10. **Remove Files and Folders.**  
 
+Removing files and folders should be handle with care. 
+
+- For removing **empty directories** on the current directory `rmdir <dir name>`
+- For removing files on the current directory `rm <filename>`
