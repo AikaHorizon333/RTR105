@@ -73,6 +73,7 @@
 10. **Remove Files and Folders.**  
 
 Removing files and folders should be handle with care. 
+[More information](https://www.hostinger.com/tutorials/how-to-remove-files-and-folders-using-linux-command-line/)
 
 - For removing **empty directories** on the current directory `rmdir <dir name>`
 - For removing files on the current directory `rm <filename>`
