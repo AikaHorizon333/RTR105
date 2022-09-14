@@ -7,3 +7,4 @@ Electronic Notebook for Computer Studies basic course
 ## Chapters  
 [Formating for GitHub](https://github.com/AikaHorizon333/RTR105/blob/main/Formating.md)    
 [Bash Commands for Linux](https://github.com/AikaHorizon333/RTR105/blob/main/BashCommands.md)    
+[GitHub Clone/Push](https://github.com/AikaHorizon333/RTR105/blob/main/GitUpload.md)
