@@ -1,0 +1,16 @@
+  477  cat test.py
+  478  whereis code
+  479  whereis ls
+  480  echo $PATH
+  481  nano my_first_script.sh
+  482  my_first_script.sh
+  483  ./my_first_script.sh
+  484  ls
+  485  ls -l
+  486  chmod -x my_first_script.sh
+  487  ls .l
+  488  ls -l
+  489  chmod +x my_first_script.sh
+  490  ls -lt
+  491  ./my_first_script.sh
+  492  nano my_first_script.sh
