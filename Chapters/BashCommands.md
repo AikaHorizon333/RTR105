@@ -77,3 +77,46 @@ Removing files and folders should be handle with care.
 
 - For removing **empty directories** on the current directory `rmdir <dir name>`
 - For removing files on the current directory `rm <filename>`
+
+
+## More Commands  
+
+Additional shell commands to experiment with.  
+
+11. **Read File.**  
+
+    We can read what is inside of a file from the terminal. 
+
+    `cat <file name>`  
+
+12. **Looking commands**  
+
+    Locate command excecutable  
+
+    `where <bash command>`
+
+13. **Print to the terminal**  
+
+    Print messages to the terminal. Usefull for scripting.
+
+    `echo <message>`
+
+14. **Built in text editor**
+
+    Open a file in the text editor
+
+    `nano <file name>`
+
+
+15. **Change Directory Permisions**
+
+    We can change a file or folder permissions for the owner:  
+    * r: read.    
+    * w: write.    
+    * x: executable.    
+
+    - `chmod +rwx <file name>` Adds permissions.
+    - `chmod -rwx <file name>` Removes permissions.  
+    - `chmod +x <file name >` Allows executable permissions.  
+    - `chmod -wx <file name>` Removes write and executable permissions.  
+
