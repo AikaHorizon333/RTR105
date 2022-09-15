@@ -1,9 +1,9 @@
-# Bash Scripting Guide 
+# Bash Scripting Guide   
 
 Scripts are here to make our life easy and avoid making us work twice. 
 
 
-## Setting Up a Script
+## Setting Up a Script  
 
 We can make bash scripts. This will allow us to excecute commands from the terminal.  
 
@@ -35,7 +35,7 @@ We should get "Hello World!" from the terminal window.
 
 ## Getting Variables.  
 
-Now, we are going to make things a little more interesting... 
+Now, we are going to make things a little more interesting...  
 
 Assume we are going to say Have a Nice day to some one else, but we dont know that person.  
 
@@ -46,9 +46,9 @@ Our script looks like this:
 
     echo "Hello World!"
 
-    ```
+    ```  
 
-So we introduce the concept of a variable. A variable is box in the code that we can allow us to **store** a value that can be changed later or that will be used on more advanced stages of our script.   
+So we introduce the concept of a variable. A variable is box in the code that we can allow us to **store** a value that can be changed later or that will be used on more advanced stages of our script.     
 
 Lets say Hello to Maggi.  
 
@@ -65,11 +65,16 @@ Lets say Hello to Maggi.
 
 We can deffine a variable with a *name* and then add a *value* to it:  
     
-    `name="Maggi"`
+    ```
+        name="Maggi"
+    ```
 
 And we can call that variable appending a `$` before its name:   
 
-    `echo "Hello $name!"`  
+    ````
+        echo "Hello $name!"
+    
+    ```   
 
 
 Now... What if we ask to the user their name?  
@@ -84,7 +89,8 @@ With *read* we can expect a response from the user and use it into the code.
 
 Another way to get information from the user is by using *position parameters* aka. Arguments.  
 
-We can rewrite the 
+We can rewrite the code as:  
+
     ```
         #!bin/bash
 
@@ -118,7 +124,7 @@ Let's get the date.
 
 ```
 
-With some modifications the final script looks like this. 
+With some modifications the final script looks like this.  
 
 
 ```
