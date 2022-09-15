@@ -2,8 +2,7 @@
 
 Scripts are here to make our life easy and avoid making us work twice.   
 
-
-## Setting Up a Script  
+## Setting Up a Script  
 
 We can make bash scripts. This will allow us to excecute commands from the terminal.  
 
