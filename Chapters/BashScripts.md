@@ -1,6 +1,6 @@
 # Bash Scripting Guide   
 
-Scripts are here to make our life easy and avoid making us work twice. 
+Scripts are here to make our life easy and avoid making us work twice.   
 
 
 ## Setting Up a Script  
