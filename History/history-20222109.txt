@@ -1,0 +1,16 @@
+  715  test
+  716  man test
+  717  ./test.sh
+  718  cd
+  719  PATH=$PATH:/Desktop/Semester2/ComputerStudies/RTR105/test/ <-----  wrong direction
+  720  $PATH
+  721  test.sh
+  722  test
+  723  test.sg
+  724  cd /Desktop/Semester2/ComputerStudies/RTR105/test/
+  725  cd Desktop/Semester2/ComputerStudies/RTR105/test
+  726  pwd
+  727  PATH=$PATH:/Users/Gerardo/Desktop/Semester2/ComputerStudies/RTR105/test\n <--- correct direction
+  728  test.sh
+  729  cd
+  730  test.sh
