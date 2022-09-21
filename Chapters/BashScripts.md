@@ -32,7 +32,7 @@ We can make bash scripts. This will allow us to excecute commands from the termi
 
 We should get "Hello World!" from the terminal window. 
 
-## Getting Variables.  
+## Getting Variables.  
 
 ### Defining Variables.    
 
@@ -77,7 +77,7 @@ And we can call that variable appending a `$` before its name:
     
     ```   
 
-### Asking the user for Variables.    
+#### Asking the user for Variables.    
 
 Now... What if we ask to the user their name?  
 
@@ -115,7 +115,7 @@ Here in `name=$1` we are specifying the argument we would like to use when initi
 
     ```
 
-### Special Variables - Getting output from commands.  
+#### Special Variables - Getting output from commands.  
 
 Another way to gather information for the script is from the output of a shell command.  
 
@@ -171,9 +171,9 @@ With some modifications the final script looks like this.
 
 ```
 
-## Adding directories to *$PATH*.  
+## Adding directories to *$PATH*.  
 
-### Non-permanent way:  
+#### Non-permanent way:  
 
 We can excecute a script in the terminal by adding the directory of the excecutable file to the $PATH.  
 
@@ -202,7 +202,7 @@ The `export` command allows to share variables with child processes.
 However, this two options only work while the the shell session lasts.  
 
 
-### Permanent way:  
+#### Permanent way:  
 
 To add the path in a permanent way we have to define the $PATH variable in the configuration files.  
 
