@@ -14,3 +14,19 @@
   728  test.sh
   729  cd
   730  test.sh
+  705  touch token.txt
+  706  nano token.txt
+  707  ls -lt
+  708  chmod 744 token.txt
+  709  ls -lt
+  710  ./token.txt hola como estas ?
+  711  mv token.txt token.sh
+  712  ./token.sh hola como estas
+  713  ./token.sh hola como estas
+  714  cd Semester2/ComputerStudies
+  715  ls
+  716  cd RTR105
+  717  ls
+  718  nano greeting.sh
+  719  cd History
+  720  ls
