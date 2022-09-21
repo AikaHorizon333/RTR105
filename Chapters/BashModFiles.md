@@ -1,8 +1,9 @@
-# Creating and Editing Files in Terminal   
+# Creating and Editing Files in Terminal    
 
-We can create files and the content within using terminal in-built options.   
 
-## Creating Files:    
+We can create files and the content within using terminal in-built options.    
+
+## Creating Files  
 
 * Option 1 - We can create a file by using writing:   
 
@@ -16,7 +17,8 @@ This also works for creating multiple files.
 ```
     touch <file_name_1> <file_name_2>..etc  
     
-    # This will create files from a-h letters.  
+    # This commad will create files from a-h letters.  
+    
     touch someName{a..h}
 
 ```
@@ -36,7 +38,7 @@ This also works for creating multiple files.
 ```
 
 
-## Overwriting Files  
+## Overwriting Files  
 
 * Option 1 - using a text editor to edit the content:   
 
@@ -55,23 +57,23 @@ This also works for creating multiple files.
     echo "this is line 2 in file 1" >> file1  
 ```
 
-## Overwriting Files - Using Cat!.  
+## Overwriting Files - Using Cat!.  
 
-The `cat`command has a ton of functions to modify the content of a file besides its main utility to read files.    
+The `cat`command has a *ton* of functions to modify the content of a file besides its main utility to read files.    
 
-1. Copy the contents of a file into another file. 
+1. **Copy** the contents of a file into another file. 
 
 ``` 
     cat file_origin > file_desitnation
 ```
 
-2. Append the content of one file to another file  
+2. **Append** the content of one file to another file  
 
 ``` 
     cat file_origin >> file_desitnation
 ```
 
-3. Merge the contents of multiple files in another file.  
+3. **Merge** the contents of multiple files in another file.  
 
 ``` 
     cat file_1 file_2 ... file_n >> merged_file
@@ -83,7 +85,7 @@ The `cat`command has a ton of functions to modify the content of a file besides 
     cat >> file
     # Write some text into the file here.
 ```
-5. Pass a multi-line string to a file. 
+5. **Pass** a multi-line string to a file. 
 
 ```
 # This will overwrite the entire file. Notice the >. 
@@ -95,7 +97,7 @@ The `cat`command has a ton of functions to modify the content of a file besides 
     line n 
     EOF
 
-# This will apend the entire file. Notice the >>. 
+# This will append the entire file. Notice the >>. 
 
     cat <<EOF >> file
     line 1
