@@ -90,7 +90,7 @@ Removing files and folders should be handle with care.
 - For removing files on the current directory `rm <filename>`
 
 
-## More Commands  
+## More Commands  
 
 Additional shell commands to experiment with.  
 
@@ -122,9 +122,8 @@ Additional shell commands to experiment with.
 15. **Change Directory Permisions**
 
     We can change a file or folder permissions for the owner:  
-    * r: read.    
-    * w: write.    
-    * x: executable.    
+    
+    *r: read; w: write. x: executable.*      
 
     - `chmod +rwx <file name>` Adds permissions.
     - `chmod -rwx <file name>` Removes permissions.  
