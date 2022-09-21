@@ -30,3 +30,19 @@
   718  nano greeting.sh
   719  cd History
   720  ls
+  864  nano testa
+  865  cat testa
+  866  cat testa > testb
+  867  cat testb
+  868  cat testa testb
+  869  nano testc
+  870  cat testb >> testc
+  871  cat testc
+  872  cat testa testb testc > testd
+  873  cat testd
+  874  cat teste
+  875  cat >> teste
+  876  cat teste
+  877  cat <<EOF > testd\nline 1 \nline 2\nline 3\nline 4\nline 5\nEOF
+  878  cat testd
+  879  cd
