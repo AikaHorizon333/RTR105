@@ -70,6 +70,17 @@
 
     `touch <filename>`
 
+    Also, `touch` allow us to modify the timestamp of a file: 
+    - `touch -a` : changes the access time.
+    - `touch --date=<string>`: changes a timestamp using a date string.  
+    
+    The timestamp follows the next pattern: 
+    
+    ```
+        [[CC]YY]MMDDhhmm.[ss]
+
+    ```
+
 10. **Remove Files and Folders.**  
 
 Removing files and folders should be handle with care. 
