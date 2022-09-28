@@ -1,2 +1,9 @@
-
+# Ignore objects
+*.o
+*.i
+*.s
+# Ignore files
 .DS_Store
+*.out
+
+
