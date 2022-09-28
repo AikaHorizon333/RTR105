@@ -1,0 +1,46 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  ls
+    4  cd clase
+    5  ls
+    6  cd RTR105
+    7  ls
+    8  cd firstC
+    9  touch hello.c
+   10  ls
+   11  ls -lt
+   12  nano hello.c
+   13  ls -lt
+   14  cat hello.c
+   15  gcc hello.c
+   16  ls -lt
+   17  ./ a.out
+   18  / a.out
+   19  ./a.out
+   20  gcc hello.c -o hello.out
+   21  ls
+   22  ls -ly
+   23  ls -lt
+   24  nano hello.c
+   25  gcc hello.c -o hello.out
+   26  ls
+   27  ls -lt
+   28  ls
+   29  gcc -save-temps hello.c -o hello.out
+   30  ls -lt
+   31  cat first.i
+   32  cat hello.i
+   33  cat hello.s
+   34  cat hello.o
+   35  clear
+   36  nano hello.c
+   37  gcc hello.c -o hello.out
+   38  ./hello.out
+   39  echo $?
+   40  nano
+   41  nano hello.c
+   42  gcc hello.c -o hello.out
+   43  ./hello.c
+   44  ./hello.out
+   45  echo $?
+   46  history > history_20220928.txt
