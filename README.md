@@ -9,4 +9,5 @@ Electronic Notebook for Computer Studies basic course
 [Bash Commands for Linux](https://github.com/AikaHorizon333/RTR105/blob/main/Chapters/BashCommands.md)    
 [GitHub Clone/Push](https://github.com/AikaHorizon333/RTR105/blob/main/Chapters/GitUpload.md)  
 [Bash Scripts](https://github.com/AikaHorizon333/RTR105/blob/main/Chapters/BashScripts.md)    
-[Modifying Files with Terminal](https://github.com/AikaHorizon333/RTR105/blob/main/Chapters/BashModFiles.md)
+[Modifying Files with Terminal](https://github.com/AikaHorizon333/RTR105/blob/main/Chapters/BashModFiles.md)  
+[How To Compile C in Linux](https://github.com/AikaHorizon333/RTR105/blob/main/Chapters/MyFirstC.md)  
