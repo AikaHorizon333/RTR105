@@ -34,7 +34,7 @@ The resulting file will have `*.i` for extention.
 
 Summary: Include header files and expand macros.   
 
-## Compilation 
+## Compilation 
 
 During the second step, the pre-processed C program will be translated into assembly language. The file extention for the resulting file will be `*.s`.  
 
@@ -46,7 +46,7 @@ In this step the program is translated from assembly language to machine code. T
 
 Summary: Generate Machine Code.  
 
-## Linker
+## Linker  
 
 This is the last step of the compilation. In this step the instruction in the object file are re-arranged and the libraries are linked to make a final executable, the output file `*.out`.    
 
