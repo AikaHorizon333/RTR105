@@ -26,4 +26,23 @@ git config --global user.email USER EMAIL
 
 You can check the status of the repo by using:  
 
-`git status`
+`git status`  
+
+## Ignoring Files  
+
+Sometimes we dont wanto upload certine type of files to the git network. Compilation objects, keys, etc. 
+For keep the repository clean we can write a`.gitignore` file. This way we can specify to **git** which files to ignore. 
+
+We can use *filenames* or *wildcards* to list the files.    
+
+Example:  
+
+```
+#Ignore all pdf's in the repo.
+*.pdf
+
+#Ignore a File. 
+.DS_Store
+
+
+```
