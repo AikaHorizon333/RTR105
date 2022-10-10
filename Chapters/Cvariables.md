@@ -1,6 +1,6 @@
 # C/C++ Variables.  
 
-## Variables.  
+## Variables.  
 
 
 Variables are the way programms keep track of information and they are constructed arround three fundamental properties: 
@@ -30,7 +30,7 @@ It is important to known that the initialization and the declaration can be done
 ´´´
 
 
-## Integers.  
+## Integers.  
 
 Integers are numbers with no fractional part, ex. 2, -4, 1042, and 0.  
 
