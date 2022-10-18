@@ -43,7 +43,7 @@ int main() {
     
     // ASK FOR CHARACTER
 
-    printf("Hello!, please input a number (0-9) you want to conver to binary\n");
+    printf("Hello! Please input a number (0-9) you want to convert to binary :)\n");
 
     scanf(" %c",&decChar);
 
