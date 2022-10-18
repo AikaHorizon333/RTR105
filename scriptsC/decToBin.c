@@ -14,6 +14,18 @@ int decNumber;
 
 int binNumber[256];
 
+// Getting Char To Int
+int charToInt(char someChar){
+    int someInt = (int)(someChar);
+    return someInt;
+}
+
+int masking(int charNumber){
+    // Filters out sr. byte.
+    int mask = 0x0f;
+    return charNumber&mask;
+}
+
 
 
 // Division Function Bitwise
@@ -24,16 +36,25 @@ int division2(int someNumber){
 
 
 // Write the from LSB to MSB
-    int length = 0;
+    int length;
     
 
 int main() {
     
+    // ASK FOR CHARACTER
 
+    printf("Hello!, please input a number (0-9) you want to conver to binary\n");
+
+    scanf(" %c",&decChar);
+
+    decNumber = charToInt(decChar);
     
-    int a = 11;
+    // MASKING
     
+    //int a = 11;
+    int a = masking(decNumber);
     
+    // GET BINARY
     
     int length = 0;
     
@@ -54,7 +75,9 @@ int main() {
     }
     
     
-    
+    /*
+
+    // this prints the number by LSB order
     
     printf("binary length number: %d \n", length+1);
     
@@ -64,15 +87,9 @@ int main() {
         
         
     }
-  
-  printf("\nSome Space \n");
+  */
 
-
-
-
-
-
-
+  printf("Your number is:\n");
 
     for (int i = length; i>=0; i--){
         
@@ -81,11 +98,7 @@ int main() {
         
     }
   
-  printf("\nSome Space \n");
-  
-  
-  
-  
+  printf("\nC Yah!\n");
   
 
     return 0;
