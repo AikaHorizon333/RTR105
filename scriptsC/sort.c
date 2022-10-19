@@ -24,13 +24,13 @@ void setCharacters(char *t){
     scanf(" %c", t);
 }
 
-// Compare Characters
+// Compare Characters -- NOT IMPLEMENTED
 
-char whoIsLarger(char a, char b){
+/*char whoIsLarger(char a, char b){
 
     if (a>b){ return a; }
-    else { return b ;}
-}
+    else { return b;}
+}*/ 
 
 
 // Ask for Sorting order
@@ -59,14 +59,116 @@ int main(){
 
         // Sort Ascending. 
         printf("Sort Ascending\n");
-     
+
+        // Ascending Order
+  
+        if (char1>char2) {
+        
+          if(char1>char3){
+              characters[2] = char1;
+
+              if(char2>char3){
+                  characters[1]=char2;
+                  characters[0]=char3;
+              }
+              else{
+                  characters[1]=char3;
+                  characters[0]=char2;
+              }
+          }
+
+          else{
+              characters[2]=char3;
+              characters[1]=char1;
+              characters[0]=char2;
+          }
+       
+       
+        }
+
+        else{
+           if(char2>char3){
+                characters[2] = char2;
+
+                if(char1>char3){
+                    characters[1]=char1;
+                    characters[0]=char3;
+                }
+                else{
+                    characters[1]=char3;
+                    characters[0]=char1;
+                }
+            }
+
+            else{
+                characters[2]=char3;
+                characters[1]=char2;
+                characters[0]=char1;
+            }
+
+        }
+  
+  
+    for(int i = 0; i<3;i++){printf("%c\n",characters[i]);} 
+  
+
+
     }
 
     else if(isAscending =='n'){
 
         //Sort Descending. 
         printf("Sort Descending\n");
-        
+
+        // Descending order
+   
+        if (char1>char2) {
+            
+            if(char1>char3){
+                characters[0] = char1;
+                
+                if(char2>char3){
+                    characters[1]=char2;
+                    characters[2]=char3;
+                }
+                else{
+                    characters[1]=char3;
+                    characters[2]=char2;
+                }
+            }
+            
+            else{
+                characters[0]=char3;
+                characters[1]=char1;
+                characters[2]=char2;
+            }
+            
+            
+        }
+        else{
+           if(char2>char3){
+                characters[0] = char2;
+                
+                if(char1>char3){
+                    characters[1]=char1;
+                    characters[2]=char3;
+                }
+                else{
+                    characters[1]=char3;
+                    characters[2]=char1;
+                }
+            }
+            
+            else{
+                characters[0]=char3;
+                characters[1]=char2;
+                characters[2]=char1;
+            }
+            
+        }
+   
+        for(int i = 0; i<3;i++){printf("%c\n",characters[i]);}
+
     }
 
     else {
