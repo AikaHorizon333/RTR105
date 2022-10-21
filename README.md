@@ -13,4 +13,6 @@ Electronic Notebook for Computer Studies basic course
 [How To Compile C in Linux](https://github.com/AikaHorizon333/RTR105/blob/main/Chapters/MyFirstC.md)    
 [Variables in C/C++](https://github.com/AikaHorizon333/RTR105/blob/main/Chapters/Cvariables.md)  
 [Stream Data in C/C++](https://github.com/AikaHorizon333/RTR105/blob/main/Chapters/Cprint.md)
+[Bitwise Operations in C/C++](https://github.com/AikaHorizon333/RTR105/blob/main/Chapters/bitwise.md)  
+
     
