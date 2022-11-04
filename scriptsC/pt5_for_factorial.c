@@ -68,8 +68,6 @@ void factorialInt(int factorial){
     
     printf("factorial of %d: %d\n",factorial,v);
     
-    
-  
 }
 
 void factorialChar(char factorial){
@@ -214,7 +212,7 @@ int main() {
             break;
         
         default:
-            printf("Sorry I cannot understand u :(");
+            printf("Sorry I cannot understand u :(\n");
             break;
     }
     
