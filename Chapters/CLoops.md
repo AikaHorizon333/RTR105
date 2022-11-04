@@ -4,6 +4,8 @@ They are  use to repeat some parts of code.
 
 DO NOT REPEAT YOURSELF.
 
+## Loops  
+
 Types of Loops:  
 
 * `while` -> while some state is true, do.
@@ -63,4 +65,14 @@ Important things to think about each type of loop:
 
         }
 
-´´´
+```
+
+## Exit Keywords  
+
+One can *"force out"* from a loop or even skip a entire turn with some specific keywords. This add extra functionallity to the writen loops.
+
+The keywords are:
+
+* `continue`: The loop will exit its current lap and start the new one.
+* `break`: The loop finish after this word and the next block of code outside the loop is executed.  
+* `return`: You exit from the function where the loop is contained. 
