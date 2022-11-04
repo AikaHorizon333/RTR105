@@ -6,23 +6,24 @@ DO NOT REPEAT YOURSELF.
 
 Types of Loops:  
 
-* while -> while some state is true, do.
-* do...while-> do, then while some state is true, repeat again.
-* for -> for or until some state is true.
+* `while` -> while some state is true, do.
+* `do...while`-> do, then while some state is true, repeat again.
+* `for` -> for or until some state is true.
 
 Important things to think about each type of loop: 
 
-* while : The loop will execute as long as the expression inside is true.
+* `while` : The loop will execute as long as the expression inside is true.
 
-* do...while:  At least do the action once, then revaluate for repetition.
+* `do...while` :  At least do the action once, then revaluate for repetition.
 
-* for (action1, action2; expression; action3, action4):
+* `for (action1, action2; expression; action3, action4)`:
 
-- The first part is only executed once at the begining.
+    1.  The first part is only executed once at the begining.
+    2.  Other actions will continue while expression is true.
 
-- Other actions will continue while expression is true.
 
-´´´
+```
+
     // Lets write some loops shallwe?
 
         char whileTrigger = 5;
