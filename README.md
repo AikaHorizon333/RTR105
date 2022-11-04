@@ -23,7 +23,7 @@ Electronic Notebook for Computer Studies basic course
 [Variables in C/C++](https://github.com/AikaHorizon333/RTR105/blob/main/Chapters/Cvariables.md)  
 [Stream Data in C/C++](https://github.com/AikaHorizon333/RTR105/blob/main/Chapters/Cprint.md)  
 [Bitwise Operations in C/C++](https://github.com/AikaHorizon333/RTR105/blob/main/Chapters/bitwise.md)  
-[Loops in C/C++](https://github.com/AikaHorizon333/RTR105/blob/main/Chapters/CLoops.md) 
-[Control Flow in C/C++](https://github.com/AikaHorizon333/RTR105/blob/main/Chapters/CcontrolFlow.md)  
+[Loops in C/C++](https://github.com/AikaHorizon333/RTR105/blob/main/Chapters/CLoops.md)   
+[Control Flow in C/C++](https://github.com/AikaHorizon333/RTR105/blob/main/Chapters/CcontrolFlow.md)    
 
 
