@@ -34,7 +34,7 @@ unsigned long long toUnsignedLongLong(){
 // Flag
 
 void flagError(){
-    printf("\nAra ara, we dont support that value !!! :(\nResult too Large for dtype.\n");
+    printf("\nHey, we dont support that value !!! :(\nResult too Large for dtype.\n");
 }
 
 // FACTORIAL FUNCTIONS:
