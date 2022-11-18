@@ -19,6 +19,7 @@ For allocate a space in memory for store and name a value we use a declaration, 
 It is important to known that the initialization and the declaration can be done at the same time, But if the variable is not initialized it may have a prestored value.   
 
 ´´´
+    
     int meaningOfLife; // Variable declaration.
 
     meaningOfLife = 42; // Variable initializarion.
@@ -73,6 +74,40 @@ int someHex = 0xA;
 int someOct = 011;
 
 ```
+## Float
+
+Floating-Point numbers are very large and very small positive and negative numbers with decimals to indicate a differente degrees of accuracy, depending on the needs of the programer.  
+
+the keyword to initialize a float is **float**.   
+
+Floats can also be **unsigned**.  
+
+```
+    float a = 4.5;
+    float b = -6.77;
+    unsigned float c = 5.78;
+
+```
+
+## Characters
+
+Character data types are representations of integer values known as character codes.  
+
+Characters represent letters, numbers, special characters or even blank space, keyboard keys.  
+There are a total of 128 characters codes that make up the most commonly used characters of a keyboard.  
+
+The character codes are most notably organized through ASCII character set.   
+
+For **char** the range goes from -127 to 127. **unsigned char** goes from 0 to 255.  
+
+
+```
+char firstInitial = 'A';
+chat secondInitial = 68;
+
+```
+
+
 
 
 
