@@ -22,13 +22,13 @@ int main()
 	// What do we need: 
 
 	double x = 2.05; // dummy value to calculate. 
-	double y, a0, a1, a2, s0, s1, s2 // Variables to stablish the calculations. 
+	double y, a0, a1, a2, a3, S0, S1, S2, S3; // Variables to stablish the calculations. 
 
 	// Target value: 
 	
 	y = sinh(x);
 
-	printf("y = sinh(%.2f) = %.2f\n");
+	printf("y = sinh(%.2f) = %.2f\n",x,y);
 
 	// What happens when n = 0 
 	
@@ -37,7 +37,6 @@ int main()
 	S0 = a0;
 	printf("%.2f\t%8.2f\t%8.2f\n",x,a0,S0);
 	
-
 	a1 = pow(x,2*1 + 1)/(1*1*2*3); 
 	S1 = S0 + a1;
 	printf("%.2f\t%8.2f\t%8.2f\n",x,a1,S1);
@@ -46,7 +45,9 @@ int main()
 	S2 = S1 + a2;
 	printf("%.2f\t%8.2f\t%8.2f\n",x,a2,S2);
 
-
+	a3 = pow(x,2*3 + 1)/(1*1*2*3*4*5*6*7); 
+	S3 = S2 + a3;
+	printf("%.2f\t%8.2f\t%8.2f\n",x,a3,S3);
     
 
     return 0;
