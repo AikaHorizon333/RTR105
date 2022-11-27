@@ -18,12 +18,13 @@
 
 int main()
 {
-	// Version 1 - Naive Case: What do we need to calculate and How do we calculate it.  
+	// Version 2 - Improved  Case: Improving the memory.  
 
 	// What do we need: 
 
 	double x = 2.05; // dummy value to calculate. 
-	double y, a0, a1, a2, a3, S0, S1, S2, S3; // Variables to stablish the calculations. 
+	double y, a, S; // Variables to stablish the calculations. 
+	int k = 0; // Varaible index of the sum.
 
 	// Target value: 
 	
@@ -33,23 +34,22 @@ int main()
 
 	// What happens when n = 0 
 	
-	
-	a0 = pow(x,2*0 + 1)/(1.); 
-	S0 = a0;
-	printf("%.2f\t%8.5f\t%8.5f\n",x,a0,S0);
-	
-	a1 = pow(x,2*1 + 1)/(1*1*2*3); 
-	S1 = S0 + a1;
-	printf("%.2f\t%8.5f\t%8.5f\n",x,a1,S1);
+	// k = 0
 
-	a2 = pow(x,2*2 + 1)/(1*1*2*3*4*5); 
-	S2 = S1 + a2;
-	printf("%.2f\t%8.5f\t%8.5f\n",x,a2,S2);
+	a = pow(x,2*k + 1)/(1.); 
+	S = a;
+	printf("%.2f\t%8.5f\t%8.5f\n",x,a,S);
+	
 
-	a3 = pow(x,2*3 + 1)/(1*1*2*3*4*5*6*7); 
-	S3 = S2 + a3;
-	printf("%.2f\t%8.5f\t%8.5f\n",x,a3,S3);
-    
+
+	while(k<3){
+		
+		k++;
+		a = pow(x,2*k + 1)/((2*k)*(2*k+1)); 
+		S = S + a;
+		printf("%.2f\t%8.5f\t%8.5f\n",x,a,S);
+
+	}
 
     return 0;
 }
