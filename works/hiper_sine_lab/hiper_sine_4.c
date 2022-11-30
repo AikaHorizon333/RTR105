@@ -22,7 +22,7 @@ double my_hiper_sine(double x){
 
 // Local functions for hsine calculation.
 	
-	double a, S; 
+	long double a, S; 
 	int k = 0;
 	int n = 500;
 		
@@ -45,12 +45,12 @@ double my_hiper_sine(double x){
 		S = S + a;
 		if (k == n-1){
 			
-			printf("x=%.2f\ta_n-1=%8.5f\tS_n-1=%8.5f\n",x,a,S);
+			printf("x=%.2f\ta_n-1=%8.5Le\tS_n-1=%8.5Lf\n",x,a,S);
 	
 		}
 		if (k == n){
 			
-			printf("x=%.2f\ta=%8.5f\tS=%8.5f\n",x,a,S);
+			printf("x=%.2f\ta=%8.5Le\tS=%8.5Lf\n",x,a,S);
 	
 		}
 	}
@@ -60,19 +60,48 @@ double my_hiper_sine(double x){
 }
 
 
+int ReadText(){
+
+	char *filename = "hiper_sine_ASCII.txt";
+	FILE *fp = fopen(filename, "r");
+	
+	if(fp == NULL){
+
+		printf("Error: could not open file %s", filename);
+		return 1;
+
+	}
+	
+	// Reading line by line. 
+
+	const unsigned MAX_LENGTH = 256;
+	char buffer[MAX_LENGTH];
+	
+	while (fgets(buffer, MAX_LENGTH, fp)){
+		
+		printf("%s", buffer);
+	
+	}
+
+	// Close the file.
+	
+	fclose(fp);
+	return 0;
 
 
+}
 
 
 int main()
 {
-	// Version 2 - Improved  Case: Improving the memory.  
+	// Version 3  - Read ASCII Aded.
 
 	// What do we need: 
 
 	double x = 2.05; // dummy value to calculate. 
 	double y, yy;   
 	
+	ReadText();
 
 	// Target value: 
 	
