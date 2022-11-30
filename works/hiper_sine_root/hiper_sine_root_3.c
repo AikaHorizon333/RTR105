@@ -17,6 +17,15 @@
 * -----------------------------------------------------------
 */
 
+
+/* Global Variables */
+
+double x;  
+double y, yy;   
+
+
+
+
 /* Hiperbolic Sine Root of X  Function  */
 
 double my_hiper_sine_root(double x){
@@ -35,8 +44,7 @@ double my_hiper_sine_root(double x){
 
 	a = root_x*pow(x,k)/(1.); 
 	S = a;
-	//printf("%.2f\t%8.5f\t%8.5f\n",x,a,S);
-	
+		
 
 
 	while(k<n){
@@ -48,12 +56,12 @@ double my_hiper_sine_root(double x){
 		S = S + a;
 		if (k == n-1){
 			
-			printf("x=%.2f\ta_n-1=%8.5Le\tS_n-1=%8.5Lf\n",x,a,S);
+			printf("\nx=%.2f\ta_n-1=%8.5Le\tS_n-1=%8.5Lf\n",x,a,S);
 	
 		}
 		if (k == n){
 			
-			printf("x=%.2f\ta=%8.5Le\tS=%8.5Lf\n",x,a,S);
+			printf("\nx=%.2f\ta=%8.5Le\tS=%8.5Lf\n",x,a,S);
 	
 		}
 	}
@@ -63,25 +71,75 @@ double my_hiper_sine_root(double x){
 }
 
 
+
+int  ReadText(){
+
+	char *filename = "hiper_sine_root_ASCII.txt";
+	FILE *fp = fopen(filename, "r");
+
+	if(fp == NULL){
+		printf("Error: could not open file %s", filename);
+		return 1;
+	}
+
+	// Reading line by line
+	
+	const unsigned MAX_LENGTH = 256;
+	char buffer[MAX_LENGTH];
+
+	while (fgets(buffer, MAX_LENGTH, fp)){
+		
+		printf("%s", buffer);
+	
+	}
+
+	// Close the file.
+	fclose(fp);
+
+	return 0;
+
+}
+
+
+double  PromtText(){
+	
+	double t;
+	
+	printf("\nWrite a Value for X:\n ");
+	scanf("%lf",&t);
+	printf("\nCalculating sinh(√x) with x = %f\n", t);
+	printf("\n... ... ... ... ...\n");
+
+	return t;
+}
+
+
+
+// Main Function
+
+
 int main()
 {
-	// Version 6  - Using Long Double in Hiperbolic Function.
-	// 	      - Using Le  for A  and Lf for S
+	// Version 7  - Added User interaction.
+	// 	      - Upgraded CLI printing.
 
 	// What do we need: 
 
-	double x = 2.05; // dummy value to calculate. 
-	double y, yy;   
+	ReadText();
 
 	// Target value: 
 	
+	x = PromtText();
+	
 	y = sinh(sqrt(x));
 
-	printf("y = sinh(√%.2f) = %.5f\n",x,y);
+	printf("\ny = sinh(√%.2f) = %.5f\n",x,y);
+
+	// Our Aproximation
 	
 	yy = my_hiper_sine_root(x);
 	
-	printf("y = my_hiper_sine_root(%.2f) = %.5f\n",x,yy);
+	printf("\ny = my_hiper_sine_root(%.2f) = %.5f\n",x,yy);
 
     return 0;
 }
