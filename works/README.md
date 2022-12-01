@@ -114,7 +114,44 @@ Later version of the code where the Recurrent factor is used to calculate each p
 
 ```
 
-## Visualization of the Hiperbolic Sine vs the Expansion Series. 
+Output of the program : 
+
+```
+
+
+-- S e r i e s  C a l c u l a t i o n --
+
+		  500
+		-------
+		\		 (2 * K + 1)
+		 \		X
+sinh(x)	  =       \      --------------------------
+		  /
+		 /		(2 * K + 1 )!
+		/
+		-------
+		 K = 0
+
+
+
+	 	 X^2
+R   =	 ___________________
+	 ( 2 * K )(2 * K + 1)
+y = sinh(2.05) = 3.81958
+x=2.05	a_n-1=6.87801e-2254	S_n-1= 3.81958
+x=2.05	a=2.88760e-2259	S= 3.81958
+y = my_hiper_sine(2.05) = 3.81958
+
+
+
+
+```
+
+
+
+
+
+### Visualization of the Hiperbolic Sine vs the Expansion Series. 
 
 
 ![HiperbolicSinePlot](https://github.com/AikaHorizon333/RTR105/blob/main/works/hiper_sine_lab/hiper_sine.png)
@@ -122,6 +159,6 @@ Later version of the code where the Recurrent factor is used to calculate each p
 In the plot is easy to spot that, as we increase the number of terms the more close the expansion series will be to the actual function.  
 
 
-
+## Hiperbolic Sine of √x
 
 
