@@ -151,7 +151,7 @@ y = my_hiper_sine(2.05) = 3.81958
 
 
 
-### Visualization of the Hiperbolic Sine vs the Expansion Series. 
+### Visualization of the Hiperbolic Sine vs the Expansion Series. 
 
 
 ![HiperbolicSinePlot](https://github.com/AikaHorizon333/RTR105/blob/main/works/hiper_sine_lab/hiper_sine.png)
@@ -159,6 +159,6 @@ y = my_hiper_sine(2.05) = 3.81958
 In the plot is easy to spot that, as we increase the number of terms the more close the expansion series will be to the actual function.  
 
 
-## Hiperbolic Sine of √x
+## Hiperbolic Sine of √x
 
 
