@@ -25,6 +25,7 @@
 float a,b,c,x,dx; // Inner Variables
 float sinh_a, sinh_b;
 
+
 // Modded Sinhr
 
 float moded_sinhr(float x, float c){
@@ -67,14 +68,14 @@ int main(){
 	
 
 	// The Method is not Valid
-	if(sinh_a*sinh_a>0){
+	if(sinh_a*sinh_b>0){
 
 		printf("\nInterval [%.5f;%.5f] function sinh(√x)\n",a,b);
 		printf("\nNo Roots(Or Even number of Roots)\n");
 		return 1;
 	}
 	
-	printf("sinh(√%7.3f)=%7.3f\t\t\t\t",a,moded_sinhr(a,c));
+	printf("\nsinh(√%7.3f)=%7.3f\t\t\t",a,moded_sinhr(a,c));
 	printf("sinh(√%7.3f)=%7.3f\n",b,moded_sinhr(b,c));
 
 
@@ -90,13 +91,13 @@ int main(){
 		
 		else{b=x;}
 		
-		printf("%.2d. Iterations: sin(%7.3f = %7.3f\t)", k,a,moded_sinhr(a,c));
-		printf("sinh(√%7.3f)=%7.3f\n",x,moded_sinhr(x,c));
-		printf("sinh(√%7.3f)=%7.3f\n",b,moded_sinhr(b,c));
+		printf("%.2d. Iterations: sin(%7.5f = %7.5f\t)", k,a,moded_sinhr(a,c));
+		printf("sinh(√%7.5f)=%7.5f\n",x,moded_sinhr(x,c));
+		printf("sinh(√%7.5f)=%7.5f\n",b,moded_sinhr(b,c));
 	
 		}	
 
-	printf("Root Found at x = %.3f, sinh(√x)=%.3f\n",x,moded_sinhr(x,c));
+	printf("Root Found at x = %.3e, sinh(√x)=%.3e\n",x,moded_sinhr(x,c));
 	
 
 	return 0;
