@@ -1,6 +1,6 @@
 # Numerical Methods: Bisection Method
 
-## What is The Bisection Method?  
+## What is The Bisection Method?  
 
 The Bisection Method is a root-finding method that applies to any **continious** function for which one knows two values with opposite signs. 
 
@@ -23,7 +23,7 @@ Before showing the code, at first sight we can tell that the function is not def
 
 This quick inspection tell us that no matter wich values of a and b we choose, the method will not work since the only root for this function is zero. 
 
-## How the code looks like: Bisection Method.  
+## How the code looks like: Bisection Method? 
 
 
 
