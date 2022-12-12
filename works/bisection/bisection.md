@@ -26,6 +26,10 @@ This quick inspection tell us that no matter wich values of a and b we choose, t
 ## How the code looks like: Bisection Method.  
 
 
+
+From the main function of the program:
+
+
 ```
 	// 1. Getting F(a) and F(b) Values.
        
@@ -49,28 +53,125 @@ This quick inspection tell us that no matter wich values of a and b we choose, t
 
 	// 3. Beggining of the iterative process. 
 	
-	while((b-a)>dx){
+        while((b-a)>dx){
+ 
+                 k++;
+                 x = (a+b)/2.;
 
-                k++;
-                x = (a+b)/2.;
+                 if(sinh_a*moded_sinhr(x,c)>0){
 
-                if(sinh_a*moded_sinhr(x,c)>0){
+                         a = x;
+                 }
 
-                        a = x;
-                }
+                 else{b=x;}
 
-                else{b=x;}
+                 printf("%.2d. Iterations: sin(%7.5f = %7.5f\t)", k,a,moded_sinhr(a,c    ));
+                 printf("sinh(√%7.5f)=%7.5f\n",x,moded_sinhr(x,c));
+                 printf("sinh(√%7.5f)=%7.5f\n",b,moded_sinhr(b,c));
 
+                 }
 
-                printf("%.2d. Iterations: sin(%7.3f = %7.3f\t)", k,a,$
-                printf("sinh(√%7.3f)=%7.3f\n",x,moded_sinhr(x,c));
-                printf("sinh(√%7.3f)=%7.3f\n",b,moded_sinhr(b,c));
+         printf("Root Found at x = %.3e, sinh(√x)=%.3e\n",x,moded_sinhr(x,c));
 
-                }
-	
-	
-        printf("Root Found at x = %.3f, sinh(√x)=%.3f\n",x,moded_sinh$
 
 ```
+
+After the quick inspection made. What if we run the code and input some values. 
+
+Example 1 . A and B  on the range of the function
+
+```
+// Output of the program
+
+	Hi! We are going to calculate the roots for:
+	f(x)= sinh(√x) = c
+	Please, input the lower boudary of the region: A
+	0.01
+	Please, input the upper boudary of the region: B
+	2
+	Please, input a C value f(x) = C, for f(x)= 0 C = 0
+	0
+	Please, input a precission value ex. 1e-3
+	1e-5
+	Your range is [0.01000;2.00000] and f(x) = 0.00000, with dx = 0.00001
+
+	Interval [0.01000;2.00000] function sinh(√x)
+
+	No Roots(Or Even number of Roots)
+
+
+```
+
+Example 2. A = 0 and B > A. 
+
+```
+// Output of the program
+
+	Hi! We are going to calculate the roots for:
+	f(x)= sinh(√x) = c
+	Please, input the lower boudary of the region: A
+	0.00
+	Please, input the upper boudary of the region: B
+	2
+	103         return 0;
+	Please, input a C value f(x) = C, for f(x)= 0 C = 0
+	0
+	Please, input a precission value ex. 1e-3
+	1e-5
+	Your range is [0.00000;2.00000] and f(x) = 0.00000, with dx = 0.00001
+
+	sinh(√  0.000)=  0.000			sinh(√  2.000)=  1.935
+
+	01. Iterations: sin(0.00000 = 0.00000	)sinh(√1.00000)=1.17520
+	sinh(√1.00000)=1.17520
+	02. Iterations: sin(0.00000 = 0.00000	)sinh(√0.50000)=0.76752
+	sinh(√0.50000)=0.76752
+	03. Iterations: sin(0.00000 = 0.00000	)sinh(√0.25000)=0.52110
+	sinh(√0.25000)=0.52110
+	04. Iterations: sin(0.00000 = 0.00000	)sinh(√0.12500)=0.36097
+	sinh(√0.12500)=0.36097
+	05. Iterations: sin(0.00000 = 0.00000	)sinh(√0.06250)=0.25261
+	sinh(√0.06250)=0.25261
+	06. Iterations: sin(0.00000 = 0.00000	)sinh(√0.03125)=0.17770
+	sinh(√0.03125)=0.17770
+	07. Iterations: sin(0.00000 = 0.00000	)sinh(√0.01562)=0.12533
+	sinh(√0.01562)=0.12533
+	08. Iterations: sin(0.00000 = 0.00000	)sinh(√0.00781)=0.08850
+	sinh(√0.00781)=0.08850
+	09. Iterations: sin(0.00000 = 0.00000	)sinh(√0.00391)=0.06254
+	sinh(√0.00391)=0.06254
+	10. Iterations: sin(0.00000 = 0.00000	)sinh(√0.00195)=0.04421
+	sinh(√0.00195)=0.04421
+	11. Iterations: sin(0.00000 = 0.00000	)sinh(√0.00098)=0.03126
+	sinh(√0.00098)=0.03126
+	12. Iterations: sin(0.00000 = 0.00000	)sinh(√0.00049)=0.02210
+	sinh(√0.00049)=0.02210
+	13. Iterations: sin(0.00000 = 0.00000	)sinh(√0.00024)=0.01563
+	sinh(√0.00024)=0.01563
+	14. Iterations: sin(0.00000 = 0.00000	)sinh(√0.00012)=0.01105
+	sinh(√0.00012)=0.01105
+	15. Iterations: sin(0.00000 = 0.00000	)sinh(√0.00006)=0.00781
+	sinh(√0.00006)=0.00781
+	16. Iterations: sin(0.00000 = 0.00000	)sinh(√0.00003)=0.00552
+	sinh(√0.00003)=0.00552
+	17. Iterations: sin(0.00000 = 0.00000	)sinh(√0.00002)=0.00391
+	sinh(√0.00002)=0.00391
+	18. Iterations: sin(0.00000 = 0.00000	)sinh(√0.00001)=0.00276
+	sinh(√0.00001)=0.00276
+
+	Root Found at x = 7.629e-06, sinh(√x)=2.762e-03
+
+```
+
+On the first experiment the program returns  advising that the function has no roots on the selected interval or if they exist, there is a even number of roots.  
+
+As we know by analyzing the graph, there are no roots.  
+
+
+On the second experiment, the program was able to aproximate to a root value.  
+
+## Location of the calculated Root. 
+
+[!Located Root](https://github.com/AikaHorizon333/RTR105/tree/main/works/bisection/hipersine_bisection_root.png)
 
 
