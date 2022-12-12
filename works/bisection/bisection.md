@@ -16,7 +16,7 @@ The method itself is very simple but is slow and it's only valid under certain c
 
 ## How does the function looks like ? 
 
-![HiperSineRootX](https://github.com/AikaHorizon333/RTR105/blob/main/works/Series/hiper_sine_root/hiper_sine_root_IMG.png)
+![HiperSineRootX](https://github.com/AikaHorizon333/RTR105/blob/main/works/bisection/hipersine_function.png)
 
 
 Before showing the code, at first sight we can tell that the function is not defined for values  where x<0 and the function does not have any root beyond zero. 
