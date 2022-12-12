@@ -1,4 +1,4 @@
-# Hiperbolic Sine Laboratory Work 1. 
+# Hiperbolic Sine Laboratory Work 1 
 
 We are going to compute the value of sinh(√x) function by using Taylor Series.  
 
@@ -159,7 +159,7 @@ For practical purposes at precision of 1e-5 both, the function from the math lib
 ### Visualization of the Hiperbolic Sine vs the Expansion Series. 
 
 
-![HiperbolicSinePlot](https://github.com/AikaHorizon333/RTR105/blob/main/works/hiper_sine_lab/hiper_sine.png)
+![HiperbolicSinePlot](https://github.com/AikaHorizon333/RTR105/blob/main/Series/hiper_sine_lab/hiper_sine.png)
 
 In the plot is easy to spot that, as we increase the number of terms the more close the expansion series will be to the actual function.  
 
@@ -297,7 +297,7 @@ Aditionally, The analysis made by the program shows that as for higher values of
 ### Visualization of the Hiperbolic Sine vs the Expansion Series. 
 
 
-![HiperSineRoot](https://github.com/AikaHorizon333/RTR105/blob/main/works/hiper_sine_root/hiper_sine_root_IMG.png)
+![HiperSineRoot](https://github.com/AikaHorizon333/RTR105/blob/main/works/Series/hiper_sine_root/hiper_sine_root_IMG.png)
 
 As with the example function, the graphic shows how for each iteration in the expansion series, the more it gets close to the targe function.
 

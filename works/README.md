@@ -1,8 +1,8 @@
-# Hiperbolic Sine Laboratory Works
+# Laboratory Works: Hiperbolic Sine Root X Function
 
 This is the index for the different labworks made on the course. 
 
-## LabWorks
+## LabWorks  
 
 [Taylor Series Lab](https://github.com/AikaHorizon333/RTR105/blob/main/works/Series/Series.md)
 
