@@ -14,7 +14,7 @@ The method itself is very simple but is slow and it's only valid under certain c
 
 * **Condition 2** - The function should be continiuos.
 
-## How does the function looks like ? 
+## How does the function looks like ? 
 
 ![HiperSineRootX](https://github.com/AikaHorizon333/RTR105/blob/main/works/bisection/hipersine_function.png)
 
@@ -170,7 +170,7 @@ As we know by analyzing the graph, there are no roots.
 
 On the second experiment, the program was able to aproximate to a root value.  
 
-## Location of the calculated Root. 
+## Location of the calculated Root. 
 
 ![Located Root](https://github.com/AikaHorizon333/RTR105/blob/main/works/bisection/hipersine_function.png)
 
