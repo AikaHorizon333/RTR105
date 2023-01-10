@@ -8,4 +8,7 @@ This is the index for the different labworks made on the course.
 
 [Bisection Method](https://github.com/AikaHorizon333/RTR105/blob/main/works/bisection/bisection.md)
 
+[Derivative](https://github.com/AikaHorizon333/RTR105/blob/main/works/derivative/Derivative.md)  
+
+[Integral](https://github.com/AikaHorizon333/RTR105/blob/main/works/integrate/Integrate.md)
 
