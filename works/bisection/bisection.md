@@ -1,6 +1,6 @@
 # Numerical Methods: Bisection Method
 
-## What is The Bisection Method?  
+## What is The Bisection Method?  
 
 The Bisection Method is a root-finding method that applies to any **continious** function for which one knows two values with opposite signs. 
 
@@ -14,16 +14,16 @@ The method itself is very simple but is slow and it's only valid under certain c
 
 * **Condition 2** - The function should be continiuos.
 
-## How does the function looks like ? 
+## How does the function looks like ? 
 
-![HiperSineRootX](https://github.com/AikaHorizon333/RTR105/blob/main/works/Series/hiper_sine_root/hiper_sine_root_IMG.png)
+![HiperSineRootX](https://github.com/AikaHorizon333/RTR105/blob/main/works/bisection/hipersine_function.png)
 
 
 Before showing the code, at first sight we can tell that the function is not defined for values  where x<0 and the function does not have any root beyond zero. 
 
 This quick inspection tell us that no matter wich values of a and b we choose, the method will not work since the only root for this function is zero. 
 
-## How the code looks like: Bisection Method.  
+## How the code looks like: Bisection Method? 
 
 
 
@@ -170,7 +170,7 @@ As we know by analyzing the graph, there are no roots.
 
 On the second experiment, the program was able to aproximate to a root value.  
 
-## Location of the calculated Root. 
+## Location of the calculated Root. 
 
 ![Located Root](https://github.com/AikaHorizon333/RTR105/blob/main/works/bisection/hipersine_function.png)
 
