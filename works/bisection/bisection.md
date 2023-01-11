@@ -172,5 +172,5 @@ On the second experiment, the program was able to aproximate to a root value.
 
 ## Location of the calculated Root. 
 
-![Located Root](https://github.com/AikaHorizon333/RTR105/blob/main/works/bisection/hipersine_function.png)
+![Located Root](https://github.com/AikaHorizon333/RTR105/blob/main/works/bisection/hipersine_bisection_root.png)
 
