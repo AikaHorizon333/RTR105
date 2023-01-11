@@ -1,7 +1,7 @@
 # Integration
 
 
-## What is an Integral?  
+## What is an Integral?  
 
 "An integral assigns numbers to functions in a way that describes displacement, area, volume, and other concepts that arise by combining infinitesimal data" 
 
@@ -19,10 +19,7 @@ Each type of sums has a degree of accuracy depending on the shape of the functio
 The sub-interval used in by the Riemann sumation methods can be calculated by:  
 
 ```
-	
 	h  = (b - a)/n 
-
-
 ```
 
 Where `b` is the upper limit `a` is the lower limit and `n` is the number of subdivisions.  
@@ -80,8 +77,6 @@ The code implementation of the rule is the following:
 	return integral2;
 
 	}
-
-
 
 
 ```
@@ -156,7 +151,7 @@ The code implementation of the rule is the following  :
 
 
 
-## Simpson Rule. 
+## Simpson Rule. 
 
 This numerical method is far more powerful than the common Riemann sums, since it has a better approach to quadratic behavior. 
 
@@ -241,7 +236,7 @@ The code implementation is the following:
 ```
 
 
-## Integrating sinh(√x)
+## Integrating sinh(√x)
 
 The created program calculates the integral for sinh(√x) using the numeric methods described above.
 
@@ -285,4 +280,12 @@ Console output:
 
 
 ```
+For the integral of the function in the selected interval has a value of :
+
+* Midpoint Method: 11.9248
+* Trapezoidal rule: 11.9167  
+* Simpson Rule: 11.9061
+
+According to [WolframAlpha](https://www.wolframalpha.com/input?i=integrate+sinh%28sqrt%28x%29%29+from+0+to+5) the value is 11.911...
+
 
