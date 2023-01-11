@@ -240,8 +240,10 @@ The code implementation is the following:
 
 The created program calculates the integral for sinh(√x) using the numeric methods described above.
 
-For example, the integral of f(x) on the interval 0,5
+For example, the integral of f(x) over the interval [0,5]. (The function only exist for X > 0)
 
+
+![Integral](https://github.com/AikaHorizon333/RTR105/blob/main/works/integrate/Integral.png)
 
 Console output: 
 
