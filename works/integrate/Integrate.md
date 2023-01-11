@@ -236,7 +236,7 @@ The code implementation is the following:
 ```
 
 
-## Integrating sinh(√x)
+## Integrating sinh(√x) over an interbal [a,b]
 
 The created program calculates the integral for sinh(√x) using the numeric methods described above.
 
@@ -288,6 +288,16 @@ For the integral of the function in the selected interval has a value of :
 * Trapezoidal rule: 11.9167  
 * Simpson Rule: 11.9061
 
-According to [WolframAlpha](https://www.wolframalpha.com/input?i=integrate+sinh%28sqrt%28x%29%29+from+0+to+5) the value is 11.911...
+According to [WolframAlpha](https://www.wolframalpha.com/input?i=integrate+sinh%28sqrt%28x%29%29+from+0+to+5) the computed value of the integral is 11.911
+
+Using an epsilon of 1e-2 the most accurate method is the Simpson Method, followed by te Trapezoidal rule.
+
+However, the fastest method is the Midpoint rule, since it only needs 2 iterations to get close. 
+
+Taking this two factors, speed and accuracy, the best method to aproximate the integral of this particular function is the Simpson Method.  This method, requires 4 iterations and its degree of accuracy is the best compared with the other two. 
+
+
+
+
 
 
