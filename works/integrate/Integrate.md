@@ -248,37 +248,44 @@ For example, the integral of f(x) over the interval [0,5]. (The function only ex
 Console output: 
 
 ```
-	Integral of HiperSine Root X
-	Please input a value for the lower limit a
-	0
-	Please input a value for the upper limit b
-	5
-	Please input a value for epsilon value p
-	0.01
-	Integration value for different Algorithms:
 
-	Midpoint method
-	Area Value: 11.9320
-	Area Value: 11.9248
+Integral of HiperSine Root X
+Please input a value for the lower limit a
+0
+Please input a value for the upper limit b
+5
+Please input a value for epsilon value p
+1e-2
+Integration value for different Algorithms:
 
-	Trapezoidal rule
-	Area Value: 17.5320
-	Area Value: 14.7320
-	Area Value: 13.3284
-	Area Value: 12.6230
-	Area Value: 12.2684
-	Area Value: 12.0903
-	Area Value: 12.0009
-	Area Value: 11.9561
-	Area Value: 11.9336
-	Area Value: 11.9224
-	Area Value: 11.9167
+Midpoint method
+Area Value: 11.9320
+Area Value: 11.9248
 
-	Simpson rule
-	Area Value: 11.8015
-	Area Value: 11.8717
-	Area Value: 11.8970
-	Area Value: 11.9061
+Calculated integral: 11.9248. With 2 Iterations.
+
+Trapezoidal rule
+Area Value: 17.5320
+Area Value: 14.7320
+Area Value: 13.3284
+Area Value: 12.6230
+Area Value: 12.2684
+Area Value: 12.0903
+Area Value: 12.0009
+Area Value: 11.9561
+Area Value: 11.9336
+Area Value: 11.9224
+Area Value: 11.9167
+
+Calculated integral: 11.9167. With 11 Iterations.
+
+Simpson rule
+Area Value: 11.8015
+Area Value: 11.8717
+Area Value: 11.8970
+Area Value: 11.9061
+
+Calculated integral: 11.9061. With 4 Iterations.
 
 
 ```
