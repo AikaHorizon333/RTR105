@@ -13,9 +13,7 @@ Challenges to beat:
 	7. Calculate and show the value of the function by Series.
 	8. Calculate and show the value of the function by math library. 
 
-
-
-## Expansion Series : What are they ? 
+## Expansion Series : What are they ?  
 
 The Taylor Expansion or the Taylor Series of a function is an infinite sum of terms expressed in the form of the function's derivatives at a single point.  
 
