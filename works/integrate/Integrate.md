@@ -303,6 +303,8 @@ However, the fastest method is the Midpoint rule, since it only needs 2 iteratio
 
 Taking this two factors, speed and accuracy, the best method to aproximate the integral of this particular function is the Simpson Method.  This method, requires 4 iterations and its degree of accuracy is the best compared with the other two. 
 
+![WolframInt](https://github.com/AikaHorizon333/RTR105/blob/main/works/integrate/WolframInt.png)  
+
 
 
 
