@@ -1,6 +1,6 @@
 # Derivative
 
-## What is a Derivative ? 
+## What is a Derivative ? 
 
 A derivative is a measure of how much a function changes as its input (or independent variable) changes. It  determines the  rate of change and slopes of curves. 
 
@@ -24,7 +24,7 @@ Also, by definition the derivative may be calculated from data using the slope e
 ```
 
 
-## The Code: First Derivative
+## The Code: First Derivative
 
 From the derivative definition to write code that will allow the user to get the derivative values of the funtion: 
 
@@ -105,7 +105,7 @@ In code the second derivative may be written as:
 ```
 
 
-## The code: Dynamic Arrays in C. 
+## The code: Dynamic Arrays in C. 
 
 
 For data storage and management, it is necessary to create dynamic arrays. This way the user may be able to change the degree of precission depending on its necessities. 
@@ -217,7 +217,7 @@ For the first derivative, the total amount of values calculated is N-1 and for t
 ```
 
 
-## Output: The Derivatives
+## Output: The Derivatives
 
 
 For the Hiperbolic Sine of √x the program output is the following. (First 10 values)
@@ -257,8 +257,9 @@ By Plotting ALL the data the following graph is obtained.
 
 ![AllDer](https://github.com/AikaHorizon333/RTR105/blob/main/works/derivative/plot.png)
 
+## Conclusions
 
-As this graph is too dificult to interprete (Not the best visual representation), the data will be splitted between the first and second derivative data
+The data plotted above is not the best visual representation since everything is mixed up and the details get lost on the range of the calculated data. So, it will be splitted between the first and second derivative data
 
 
 First Derivative:
@@ -268,10 +269,10 @@ First Derivative:
 The "two" curves are F(x) that correspond to the data from 1:2 and F'(x) that is the data from 1:3 but also it over laps with the data from 1:4.
 
 
-The second derivative does not "exist" for the value 0 since it is the positive infinity
+The second derivative does not exist for the value 0 since it is the positive infinity, then it goes to a minimum and then starts increasing once again, creating a "U" shape.
 
 
-The data overlap between the two sets  means that both methods of calculation are equaly effective.
+The data overlaping between the two sets  means that both methods of calculation for the derivative are equaly effective.
 
 
 
@@ -280,14 +281,14 @@ Now, for the second derivative:
 
 ![SecondDer](https://github.com/AikaHorizon333/RTR105/blob/main/works/derivative/plot_3.png) 
 
-This graph also shows two curves, the first one corresponding to the function F(x) and the "Second " representing the second derivative. 
+This graph also shows two curves, the first one corresponding to the function F(x) and the second representing the second derivative. 
 
-Once again, both data sets overlap with each other . 
+Once again the data sets of both methods gets overlaped with each other . 
 
-The second derivative also does not exist for 0 since it is negative infinity. 
+Analysing the second derivative curve, we can say that does not exist for 0 since it is negative infinity. 
 
  
-Both methods have shown the same quality of results, since the output is "the Same". 
+Both methods have shown the same quality of results, since the output is equivalent.  
 
 
 
