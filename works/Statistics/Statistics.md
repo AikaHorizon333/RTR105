@@ -293,5 +293,7 @@ The implemented function is the following:
 ```
 
 
+![hist](https://github.com/AikaHorizon333/RTR105/blob/main/works/Statistics/occurrence_img.png)
+
 
 
