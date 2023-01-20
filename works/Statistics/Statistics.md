@@ -60,7 +60,7 @@ After sorting the list, the minimum value will be located on the top of the list
 ```
 
 
-## Average
+## Average
 
 
 The average represent a description of how the "center" of the data looks like.
