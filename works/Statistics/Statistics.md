@@ -255,6 +255,8 @@ In practice, the terminal displays the following:
 
 ## Histogram
 
+An histogram is a graphical representation of the distribution of a dataset. It shows the frequency of each value in a dataset, typically represented by a bar chart. It is used to understand the distribution of a dataset, such as the range of values, the average value, and the presence of outliers.
+
 By importing the Count list to a external document its possible to generate a histogram image of the data. 
 
 All the information needed to display the data is already in the array.
@@ -295,5 +297,7 @@ The implemented function is the following:
 
 ![hist](https://github.com/AikaHorizon333/RTR105/blob/main/works/Statistics/occurrence_img.png)
 
+
+For the test string the Histogram Shows the Characters represented by it's ASCII value and the number of ocurrences, the more a character appears in the string the larger will be show in the Histogram. Additionally, is possible to see groupings in around certain values, for the string those values are related to the `a-z`characters, while the more spread values represent capital letters and the white spaces.
 
 
