@@ -12,3 +12,5 @@ This is the index for the different labworks made on the course.
 
 [Integral](https://github.com/AikaHorizon333/RTR105/blob/main/works/integrate/Integrate.md)
 
+[Statistics](https://github.com/AikaHorizon333/RTR105/blob/main/works/Statistics/Statistics.md)
+
